@@ -1,0 +1,70 @@
+.modal {
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 90vw;
+    height: 80vh;
+    border-radius: .25em;
+}
+
+.modal-title {
+    background-color:blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: calc(.25em * 3);
+}
+
+.modal-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: .5em;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.felx-dir-row {
+    flex-direction: row;
+}
+
+.grow-auto {
+    flex-grow: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.p-3 {
+    padding: calc(.25em * 3);
+}
+
+.pb-3 {
+    padding-bottom: calc(.25em * 3);
+}
+
+.pt-3 {
+    padding-top: calc(.25em * 3);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
